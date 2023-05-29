@@ -20,7 +20,7 @@ double calculatePower(double base, double exponent) {
 
 // Function to calculate the sine, cosine, and tangent of an angle (in degrees)
 void calculateTrigonometric(double angle) {
-    double radianAngle = angle * M_PI / 180.0;  // Converting to radians
+    double radianAngle = angle * M_PI / 180.0;  // Converting to Radians
 
     double sine = sin(radianAngle);
     double cosine = cos(radianAngle);
