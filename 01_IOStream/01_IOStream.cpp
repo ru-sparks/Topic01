@@ -56,7 +56,7 @@ void example5() {
     cout << "You entered: " << num1 << " and " << num2 << endl;
 }
 
-int commonPrimitiveTypes() {
+int main() {
     example1();
     example2();
     example3();

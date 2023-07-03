@@ -1,7 +1,7 @@
 #include <iostream>
 #include "LogicalStructures.h"
 
-int commonPrimitiveTypes() {
+int commonTypes() {
     // Declaration of common primitive types
 
     // Integer types
@@ -31,7 +31,7 @@ int commonPrimitiveTypes() {
 
 
 int main() {
-    commonPrimitiveTypes();
+    commonTypes();
     checkNumber(-10);
     countUpTo(10);
     countdownFrom(10);

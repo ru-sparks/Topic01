@@ -70,7 +70,7 @@ using namespace std;
 
 // Example 1: Overstepping the bounds of an array
 void arrayOutOfBoundsExample() {
-    int numbers[5] = { 1, 2, 3, 4, 5 };
+    int numbers[] = { 1, 2, 3, 4, 5 };
 
     // Accessing an element outside the bounds of the array
     int value = numbers[10];  // Accessing index 10, which is out of bounds
@@ -92,7 +92,7 @@ void incorrectVectorUsageExample() {
 
 
 
-int commonPrimitiveTypes() {
+int main() {
     // Example 1: Using an array
     arrayExample();
 

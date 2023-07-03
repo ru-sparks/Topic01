@@ -46,7 +46,7 @@ void modifyVectorRef(std::vector<int>& vec) {
     std::cout << std::endl;
 }
 
-int commonPrimitiveTypes() {
+int main() {
     // Integer examples
     int number = 10;
     incrementValue(number);

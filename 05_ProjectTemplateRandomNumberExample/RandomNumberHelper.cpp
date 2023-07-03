@@ -5,7 +5,7 @@
 
 RandomNumberHelper::RandomNumberHelper()
 {
-	srand(time(NULL));
+	srand((unsigned int) time(NULL));
 }
 
 int RandomNumberHelper::getRandomInInclusiveRange(int min, int max)
